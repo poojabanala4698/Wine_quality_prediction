@@ -39,4 +39,3 @@ To execute the code using docker run the following:
 $ sudo service docker start
 $ sudo docker run --name predictionmodel -v filename.csv --env PYSPARK_PYTHON=/usr/bin/python3 --env PYSPARK_DRIVER_PYTHON=/usr/bin/python3 -it pb536/cloud_computing_pa2
 
-https://hub.docker.com/repository/docker/pb536/cloud_computing_pa2
