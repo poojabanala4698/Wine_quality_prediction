@@ -36,6 +36,8 @@ $ python randomForest_prediction.py TestDataset.csv
 
 
 To execute the code using docker run the following:
+$ export PYSPARK_PYTHON=/usr/bin/python3
+$ export PYSPARK_DRIVER_PYTHON=/usr/bin/python3
 $ sudo service docker start
 $ sudo docker run --name predictionmodel -v filename.csv --env PYSPARK_PYTHON=/usr/bin/python3 --env PYSPARK_DRIVER_PYTHON=/usr/bin/python3 -it pb536/cloud_computing_pa2
 
